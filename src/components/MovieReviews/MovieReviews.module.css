@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 2rem;
+  }
+  
+  .item {
+    border: 1px solid #9882af;
+    border-radius: 4px;
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .text {
+    font-size: 14px;
+    text-align: left;
+  }
+  

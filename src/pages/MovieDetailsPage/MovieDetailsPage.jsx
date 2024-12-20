@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useLocation, useParams, Outlet
+  
+ } from "react-router-dom";
 import Movie from "../../components/Movie/Movie";
 import { getMovie } from "../../api/movies";
 import css from './MovieDetailsPage.module.css'
@@ -39,6 +41,7 @@ const MovieDetailsPage = () => {
           <Link to="reviews">Reviews</Link>
         </li>
       </ul>
+      <Outlet />
     </div>
   );
 };
