@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.item {
+    border-radius: 8px;
+    border: 1px solid;
+    padding: .6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color .25s;
+}
+.btn {
+    background-color: rgb(215, 175, 238);
+    color: rgb(95, 63, 128);
+}

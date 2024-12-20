@@ -1,0 +1,25 @@
+.active {
+  color: rgb(197, 129, 236);
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 25px 0;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.headerList {
+  display: flex;
+  gap: 20px;
+  padding-left: 40px;
+}
+
+.link {
+  font-size: 32px;
+  line-height: 1;
+  position: relative;
+}
+
+
